@@ -385,6 +385,7 @@ img {
     background-color: #2E2F42;
     text-align: left;
     height: 312px;
+    padding: 100px 0;
 }
 
 .foo_ter .logo {
@@ -397,8 +398,8 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-top: 100px;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .foo_ter .logo-studio-footer {

@@ -60,15 +60,13 @@ img {
     display: flex;
     column-gap: 76px;
     flex-grow: 1;
-    align-items: center/
+    align-items: center;
 }
 
 .logo {
     display: flex;
     align-items: center;
-}
-
-.nav .logo {
+    margin-right: 76px;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -77,9 +75,9 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
-
 }
+
+
 
 
 
@@ -87,7 +85,6 @@ img {
     color: #2E2F42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    margin-right: 76px;
 }
 
 

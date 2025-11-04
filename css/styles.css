@@ -206,6 +206,7 @@ img {
 /*************************** Section 2 *****************************/
 .sec-cecond {
     margin: 0 auto;
+    padding: 120px 0;
 }
 
 
@@ -217,24 +218,25 @@ img {
 .list-sec-cecond {
     display: flex;
     gap: 24px;
-    margin-top: 120px;
-    margin-bottom: 120px;
     height: 104px;
 
 }
 
+.item-list {
+    flex-basis: calc((100% - 72px) / 4);
+}
 
-.list-sec-cecond li .title-sec-cecond {
+.title-sec-cecond {
     font-size: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.2;
     color: #2E2F42;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
-.list-sec-cecond li .paragraph-sec-cecond {
+.paragraph-sec-cecond {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;

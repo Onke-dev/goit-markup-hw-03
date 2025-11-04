@@ -3,19 +3,42 @@ body {
     background-color: #ffffff;
     color: #434455;
 }
+h1, h2, h3, h4, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
 
 ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+}
+
+img {
+    display: block;
 }
 
 .container {
-    max-width: 1158px;
+    max-width: 1163px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 
 
 /*************************** Header *****************************/
@@ -32,7 +55,7 @@ ul {
     align-items: center;
 }
 
-.na {
+.nav {
     display: flex;
     column-gap: 76px;
     flex-grow: 1;
@@ -131,6 +154,7 @@ ul {
     background-color: #2E2F42;
     color: #ffffff;
     text-align: center;
+    height: 600px;
 }
 
 .page-title {
@@ -138,6 +162,11 @@ ul {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    padding-top: 188px;
+    max-width: 580px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .bttn {
@@ -149,6 +178,9 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: 0;
 }
 
 .bttn:hover {
@@ -160,9 +192,23 @@ ul {
 }
 
 /*************************** Section 2 *****************************/
+.sec-cecond {
+    margin: 0 auto;
+}
+
 
 .main-title-sec-cecond {
     text-decoration: none;
+    
+}
+
+.list-sec-cecond{
+    display: flex;
+    gap: 24px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    height: 104px;
+    
 }
 
 
@@ -173,6 +219,7 @@ ul {
     line-height: 1.2;
     color: #2E2F42;
     letter-spacing: 0.02em;
+    padding-bottom: 8px;
 }
 
 .list-sec-cecond li .paragraph-sec-cecond {
@@ -190,6 +237,8 @@ ul {
 
 .sec-third {
     background-color: #F4F4FD;
+    margin: 0 auto;
+    height: 732px;
 }
 
 
@@ -204,12 +253,27 @@ ul {
     text-transform: capitalize;
 }
 
-.list-sec-third .li-item {
-    background-color: #ffffff;
-
+.main-title-sec-third {
+    padding-top: 120px;
+    padding-bottom: 72px;
+    
 }
 
-.li-item .title-sec-third {
+.li-item {
+    background-color: #ffffff;
+    
+}
+
+
+
+.list-sec-third {
+    display: flex;
+    column-gap: 24px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.title-sec-third {
     font-size: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -217,21 +281,32 @@ ul {
     color: #2E2F42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
-.li-item .paragraph-sec-third {
+.paragraph-sec-third {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
+    text-align: center;
+    padding-bottom: 32px;
 }
 
 
 /*************************** Section 4 *****************************/
 
-.sec-fourth .page-title-fourth {
+.sec-fourth {
+    
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+.page-title-fourth {
     font-size: 36px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -240,24 +315,51 @@ ul {
     color: #2E2F42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
-.list-sec-fourth li .title-sec-fourth {
+.list-sec-fourth {
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    width: calc((100% - 48) / 3);
+}
+
+.portf-first, .portf-cecond , .portf-third {
+    padding-bottom: 48px;
+    border: 1px solid #E7E9FC;
+    gap: 48px;
+    
+}
+
+.portf-fourth, .portf-fifth , .portf-sixth {
+    /* padding-bottom: 120px; */
+    border: 1px solid #E7E9FC;
+    
+}
+
+.title-sec-fourth {
     font-size: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.2;
     color: #2E2F42;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
-.list-sec-fourth li .paragraph-sec-fourth {
+.paragraph-sec-fourth {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
+    /* padding-bottom: 32px; */
 }
 
 /*************************** Footer *****************************/
@@ -265,6 +367,7 @@ ul {
 .foo_ter {
     background-color: #2E2F42;
     text-align: left;
+    height: 312px;
 }
 
 .foo_ter .logo {
@@ -277,6 +380,8 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-top: 100px;
+    padding-bottom: 16px;
 }
 
 .foo_ter .logo-studio-footer {
@@ -288,10 +393,11 @@ ul {
     text-transform: uppercase;
 }
 
-.foo_ter .footer-paragraph {
+.footer-paragraph {
     color: #F4F4FD;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }

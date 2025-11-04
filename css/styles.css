@@ -3,7 +3,13 @@ body {
     background-color: #ffffff;
     color: #434455;
 }
-h1, h2, h3, h4, p, ul {
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
     margin: 0;
     padding: 0;
 }
@@ -155,6 +161,8 @@ img {
     color: #ffffff;
     text-align: center;
     height: 600px;
+    padding: 188px 0;
+    align-items: center;
 }
 
 .page-title {
@@ -162,8 +170,7 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    padding-top: 188px;
-    max-width: 580px;
+    max-width: 496px;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 48px;
@@ -180,7 +187,12 @@ img {
     cursor: pointer;
     padding: 16px 32px;
     border-radius: 4px;
-    border: 0;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+
 }
 
 .bttn:hover {
@@ -199,16 +211,16 @@ img {
 
 .main-title-sec-cecond {
     text-decoration: none;
-    
+
 }
 
-.list-sec-cecond{
+.list-sec-cecond {
     display: flex;
     gap: 24px;
     margin-top: 120px;
     margin-bottom: 120px;
     height: 104px;
-    
+
 }
 
 
@@ -256,12 +268,12 @@ img {
 .main-title-sec-third {
     padding-top: 120px;
     padding-bottom: 72px;
-    
+
 }
 
 .li-item {
     background-color: #ffffff;
-    
+
 }
 
 
@@ -301,7 +313,7 @@ img {
 /*************************** Section 4 *****************************/
 
 .sec-fourth {
-    
+
     margin: 0 auto;
     padding-bottom: 120px;
 }
@@ -328,17 +340,21 @@ img {
     width: calc((100% - 48) / 3);
 }
 
-.portf-first, .portf-cecond , .portf-third {
+.portf-first,
+.portf-cecond,
+.portf-third {
     padding-bottom: 48px;
     border: 1px solid #E7E9FC;
     gap: 48px;
-    
+
 }
 
-.portf-fourth, .portf-fifth , .portf-sixth {
+.portf-fourth,
+.portf-fifth,
+.portf-sixth {
     /* padding-bottom: 120px; */
     border: 1px solid #E7E9FC;
-    
+
 }
 
 .title-sec-fourth {

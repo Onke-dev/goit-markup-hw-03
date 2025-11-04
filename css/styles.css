@@ -347,7 +347,7 @@ img {
 .items_of_portfolio {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
-    border: none;
+    border-top: none;
 }
 
 

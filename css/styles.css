@@ -18,7 +18,7 @@ img {
 }
 
 .container {
-    max-width: 1163px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
@@ -45,6 +45,7 @@ img {
 
 .head {
     background-color: #ffffff;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .head .container {
@@ -59,7 +60,7 @@ img {
     display: flex;
     column-gap: 76px;
     flex-grow: 1;
-    /* justify-content: space-between; */
+    align-items: center/
 }
 
 .logo {
@@ -77,6 +78,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
+
 }
 
 
@@ -85,12 +87,13 @@ img {
     color: #2E2F42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    margin-right: 76px;
 }
 
 
 .head-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 
 }
 
@@ -128,7 +131,7 @@ img {
 
 .address-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .address-list li .info {

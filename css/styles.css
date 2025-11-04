@@ -220,10 +220,9 @@ img {
     gap: 24px;
     height: 104px;
 
-
 }
 
-.li-item {
+.items-list {
     flex-basis: calc((100% - 72px) / 4);
 }
 

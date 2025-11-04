@@ -32,7 +32,7 @@ ul {
     align-items: center;
 }
 
-.nav {
+.na {
     display: flex;
     column-gap: 76px;
     flex-grow: 1;
